@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <div class="container">
+        <section class="billing-shipping-info">
+            <h2>Informações de Envio e Faturamento</h2>
+            <form>
+                <label for="fullname">Nome Completo:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">Cidade:</label>
+                <input type="text" id="city" name="city" required>
+
+              
+
+                <label for="payment">Método de Pagamento:</label>
+                <select id="payment" name="payment" required>
+                    <option value="">Selecione...</option>
+                    <option value="cartao">Cartão de Crédito</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="Pix">pix</option>
+                    <!-- Adicione mais opções de pagamento conforme necessário -->
+                </select>
+            </form>
+        </section>
+        <section class="order-summary">
+            <h2>Resumo do Pedido</h2>
+            <div class="item">
+                <span>Carregador Iphone</span>
+                <span>$350.00</span>
+            </div>
+            <div class="item">
+                <span>Tablet Samsung</span>
+                <span>$1330.00</span>
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span>$1680.00</span>
+            </div>
+            <form>
+                <label for="coupon">Código de Desconto:</label>
+                <input type="text" id="coupon" name="coupon" placeholder="Insira o código">
+                <button class="button-aplication"    type="submit">Aplicar</button>
+            </form>
+            <button class="confirm-btn">Confirmar Pedido</button>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    
+       
+    <h1>
+        <img src="marca.jpeg" alt="Imagem Marca">
+    </h1>
+    <div class="back">
+        <a href="formulario.html"><img src="voltar.png" alt="imagem de voltar pagina anterior"></a>
+
+    </div>
+    <div class="container">
+        <form action="#">
+            <h1>Cadastrar-se</h1>
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" placeholder="Nome Completo" required />
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required />
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Senha" required />
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Repita a Senha</label>
+                    <input type="password" id="confirm-password" placeholder="Repita a Senha" required />
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" placeholder="Endereço" required />
+                </div>
+                <div class="input-group">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" placeholder="Cidade" required />
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="state">Estado</label>
+                    <input type="text" id="state" placeholder="Estado" required />
+                </div>
+                <div class="input-group">
+                    <label for="zip">CEP</label>
+                    <input type="text" id="zip" placeholder="CEP" required />
+                </div>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

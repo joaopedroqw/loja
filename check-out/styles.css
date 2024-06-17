@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #01068A;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.billing-shipping-info, .order-summary {
+    width: 45%;
+    margin-right: 2%;
+}
+
+.billing-shipping-info h2, .order-summary h2 {
+    margin-bottom: 1rem;
+}
+
+.billing-shipping-info form, .order-summary form {
+    display: flex;
+    flex-direction: column;
+}
+
+.billing-shipping-info label, .order-summary label {
+    margin-bottom: 0.5rem;
+}
+
+.billing-shipping-info input, .billing-shipping-info select, .order-summary input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+ button.button-aplication{
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+    text-transform: uppercase;
+  
+}
+
+.billing-shipping-info button, .order-summary button.confirm-btn {
+    background-color: #01068A;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.order-summary .item, .order-summary .total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary .item:last-child {
+    margin-bottom: 1rem;
+}

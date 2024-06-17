@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <header>
+      <div class="back">
+         <a href="loja.html"><img src="voltar.png" alt=""></a>
+     </div>
+        <h1>Carrinho de Compras</h1>
+    </header>
+    <main>
+        <div class="cart-container">
+            <div class="container">
+               <table class="cart-table">
+                   <thead>
+                       <tr>
+                           <th>Produto</th>
+                           <th>Quantidade</th>
+                           
+                           <th>Total</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                           <td>
+                              <img src="iphone.png" alt="Imagem iPhone">
+                           </td>
+                           <td><input type="number" value="1" min="1"></td> 
+                           
+                           <td class="number">R$ 8249,90</td>
+                           
+                       </tr>
+                     <tr>
+                           <td>
+                              <img src="monitor.webp" alt="Imagem Iphone">
+                           </td>
+                           <td><input type="number" value="2" min="1"></td>
+                           
+                           <td class="number">R$ 1249,90</td>
+                       </tr>
+                   </tbody>
+                   <tfoot>
+                       <tr>
+                           <td colspan="2">Total Geral</td>
+                           <td class="number">R$ 9499,80</td>
+                       </tr>
+                   </tfoot>
+               </table>
+               <div class="cart-actions">
+                   <button class="btn-update">Atualizar Carrinho</button>
+                   <button class="btn-checkout">Finalizar Compra</button>
+            </div>
+            </div>
+            <div class="lado">
+               <section class="resumo">
+<h3> Resumo</h3>
+<span>Valor total:</span> <span class="valor"> 9499,80</span> <br>
+<hr>
+<span>Frete:</span> <span class="valor"> 00,00</span> <br>
+<hr>
+<span>Valor à vista no Pix:</span> <span class="valor"> 9250,50</span>
+               </section>
+               <section class="cep">
+               <h3>Entrega</h3>
+               <input type="text" name="" id="" placeholder="CEP">
+               <button class="botao" type="button">OK</button>
+               </section>
+               
+            </div>
+        </div>
+    </main>
+    <footer>
+      <h3>Sobre Nós</h3>
+      <div class="footer-section">
+        
+        <ul>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Nossa Missão</a></li>
+          <li><a href="#">Nossa História</a></li>
+          <li><a href="#">Equipe</a></li>
+        </ul>
+      </div>
+      <h3>Serviços</h3>
+      <div class="footer-section">
+       
+        <ul>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Consultoria</a></li>
+          <li><a href="#">Suporte Técnico</a></li>
+          <li><a href="#">Treinamento</a></li>
+        </ul>
+      </div>
+      
+      <h3>Ajuda e Suporte</h3>
+      <div class="footer-section">
+     
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Central de Ajuda</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <h3>Conecte-se Conosco</h3>
+      <div class="footer-section">
+        
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      
+      
+    </footer>
+</body>
+</html>
